@@ -13,6 +13,7 @@ call at the top of the page : const { router,db ... example libraries } = requir
 Main middleware : middleware/root.js
 
 For settings : config/config.js
+Database settings : system/database.js
 
 db = { mongoose, active_record }
 
