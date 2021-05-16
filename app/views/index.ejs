@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #282C34;
+        }
+
+        .content {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        h2{
+            color: #ffffff;
+        }
+        p{
+            margin-top: 15px;color:#dbdbdbdb
+        }
+    </style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="content">
+        <div>
+            <h2>Welcome Deon</h2>
+            <p>Deon is simple mvc framework for Express Js</p>
+            <p>call at the top of the page  : const { router,db ... example libraries } = require('./../../system/system');   </p>
+            <p>Main middleware : middleware/root.js</p>
+            <p>For settings : config/config.js</p>
+            
+            <p>db = { 
+                mongoose,
+                active_record    
+            
+            }</p>
+
+            <p>For active record see here :https://www.npmjs.com/package/node-querybuilder </p>
+            <p>For mongoose see here : https://www.npmjs.com/package/mongoose</p>
+            <p>Default Template Engine : ejs, if you want change -> config/config.js ->view_engine : "pub" </p>
+            <p>If you want to include more libraries call over there : system/system.js and next module.exports = { app, db, router, express, session, yourlibraries... }            </p>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
